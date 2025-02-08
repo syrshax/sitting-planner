@@ -1,15 +1,15 @@
 .formContainer {
-  padding: 20px;
+  padding: 15px;
   max-width: 500px;
   margin: 0 auto;
   background-color: #2a2a2a;  /* Darker background */
   border-radius: 8px;
-  border: 1px solid #3a3a3a;
+  border: 3px solid #3a3a3a;
 }
 
 .formTitle {
   color: #ffffff;  /* Bright white for title */
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -22,17 +22,19 @@
 
 .inputGroup label {
   min-width: 140px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;  /* Bright white for labels */
 }
 
 .formInput {
-  padding: 8px;
-  border: 1px solid #4a4a4a;
+  padding: 5px;
+  border: 3px solid #4a4a4a;
   border-radius: 4px;
   width: 100px;
-  background-color: #333333;  /* Dark input background */
+  background-color: #414141;  /* Dark input background */
   color: #ffffff;  /* White text */
+	font-size: 20px
+	
 }
 
 .formInput:focus {
@@ -48,29 +50,11 @@
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .submitButton:hover {
   background-color: #535bf2;  /* Slightly darker on hover */
-}
-
-.summary {
-  margin-top: 20px;
-  padding: 15px;
-  background-color: #2a2a2a;  /* Match container background */
-  border-radius: 4px;
-  border: 1px solid #3a3a3a;
-}
-
-.summary h3 {
-  margin-bottom: 10px;
-  color: #ffffff;  /* Bright white */
-}
-
-.summary p {
-  margin: 5px 0;
-  color: #cccccc;  /* Light grey for better readability */
 }
 
 /* Override input arrows color for better visibility */
@@ -78,4 +62,5 @@
 .formInput::-webkit-outer-spin-button {
   opacity: 1;
   background-color: #646cff;
+	scale: 1.4;
 }
