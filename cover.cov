@@ -1,0 +1,8 @@
+mode: set
+syrshax/sitting-planner/api/cmd/main.go:9.13,13.2 3 0
+syrshax/sitting-planner/api/cmd/api/api.go:7.26,10.2 2 0
+syrshax/sitting-planner/api/cmd/api/router.go:8.30,15.2 4 0
+syrshax/sitting-planner/api/cmd/api/handlers/create_user.go:5.57,7.2 1 0
+syrshax/sitting-planner/api/cmd/api/handlers/home.go:5.51,15.2 1 0
+syrshax/sitting-planner/api/cmd/entities/users/user.go:17.46,23.2 1 1
+syrshax/sitting-planner/api/cmd/entities/users/use_cases/create_user.go:3.14,3.15 0 0

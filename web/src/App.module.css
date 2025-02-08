@@ -1,0 +1,45 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topBar {
+  position: sticky;
+  top: 0;
+  background-color: #1a1a1a;
+  padding: 1.2rem;
+  border-bottom: 5px solid #333;
+  z-index: 100;
+}
+
+.topBar h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: 300px 2fr;
+  gap: 2rem;
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.leftPanel {
+  position: sticky;
+  height: fit-content;
+}
+
+.rightPanel {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .mainContent {
+    grid-template-columns: 1fr;
+  }
+  
+}
